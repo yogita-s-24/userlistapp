@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useState, useContext } from "react";
-import { UserContext } from "./components/userProvider";
+import { UserContext } from "./components/UserProvider";
 import UserForm from "./components/UserForm";
 
 function App() {
