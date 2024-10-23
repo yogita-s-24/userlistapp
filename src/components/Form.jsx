@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { UserContext } from "./userProvider"; // Corrected import path
+import { UserContext } from "./UserProvider"; // Corrected import path
 import UserForm from "./UserForm";
 
 function Form() {
