@@ -3,7 +3,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import Form from "./components/Form.jsx";
-import UserProvider from "./components/userProvider.jsx";
+import UserProvider from "./components/UserProvider.jsx";
 
 const router = createBrowserRouter([
   {
@@ -14,7 +14,6 @@ const router = createBrowserRouter([
     path: "/form",
     element: <Form />,
   },
- 
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
