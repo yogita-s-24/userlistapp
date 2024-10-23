@@ -1,4 +1,4 @@
-import { UserContext } from "./userProvider";
+import { UserContext } from "./UserProvider";
 import { useState, useContext, useEffect } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
 
